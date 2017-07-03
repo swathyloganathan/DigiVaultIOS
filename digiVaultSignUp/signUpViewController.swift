@@ -20,9 +20,50 @@ class signUpViewController: UIViewController {
     
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     @IBOutlet weak var emailIdTextField: UITextField!
-    @IBOutlet weak var OTPButton: UIButton!
+ 
+    @IBOutlet weak var mobileTextField: UILabel!
+    
+    
+    @IBAction func otpbuttontapped(sender: AnyObject) {
+       let firstname = firstNameTextField.text
+       let lastname = lastNameTextField.text
+        let username = userNameTextField.text
+        let password = passwordTextField.text
+        let confrimpswd = confirmPasswordTextField.text
+        let email = emailIdTextField.text
+        let mobno = mobileTextField.text
+        if((firstname?.isEmpty)!||(lastname?.isEmpty)!||(username?.isEmpty)!||(password?.isEmpty)!||(confrimpswd?.isEmpty)!||(email?.isEmpty)!||(mobno?.isEmpty)!)
+        {
+            displayMyAlertMessage(userMessage: "ALL FIELDS ARE REQUIRED");
+            return;
+        }
+        if(password!==confrimpswd!)
+        {
+            displayMyAlertMessage(userMessage: "PASSWORDS DO NOT MATCH");
+            return;
+        }
+        let number = arc4random_uniform(101)
+        
+        let myString = String(number)
+        displayMyAlertMessage(userMessage: myString);
+    }
+    func displayMyAlertMessage(userMessage: String){
+        let myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle:)
+        
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:nil);
+       
+        myAlert.addAction(okAction);
+        
+        self.present(myAlert,animated: true, completion:nil);
+    
+    }
     @IBOutlet weak var OTPTextField: UITextField!
-    @IBOutlet weak var registerButton: UIButton!
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
