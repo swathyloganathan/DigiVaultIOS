@@ -229,7 +229,7 @@
                         <outlet property="firstNameTextField" destination="nnl-cu-PG4" id="6j9-my-d1V"/>
                         <outlet property="lastNameTextField" destination="8UJ-SD-RHz" id="uKN-V9-55L"/>
                         <outlet property="mobileTextField" destination="Hs2-aH-0uc" id="vyS-Ed-ZtW"/>
-                        <outlet property="otpTextField" destination="qC0-FZ-Ucu" id="Ybx-U6-szf"/>
+                        <outlet property="otpTextField" destination="qC0-FZ-Ucu" id="aoD-Lc-yFP"/>
                         <outlet property="passwordTextField" destination="MjD-Q1-J8m" id="9ho-V7-89X"/>
                         <outlet property="userNameTextField" destination="6BM-I7-QFd" id="G4A-Oz-mup"/>
                     </connections>

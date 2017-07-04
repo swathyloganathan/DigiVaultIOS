@@ -24,6 +24,7 @@ class signUpViewController: UIViewController {
     
     @IBOutlet weak var mobileTextField: UITextField!
     
+    @IBOutlet weak var otpTextField: UITextField!
     var myString=""
     
     @IBAction func OTPButtonTapped(_ sender: Any) {
@@ -47,7 +48,7 @@ class signUpViewController: UIViewController {
             let number = arc4random_uniform(101)
             
             myString = String(number)
-            displayMyAlertMessage(userMessage: myString);
+            //displayMyAlertMessage(userMessage: myString);
             }
             else{
                 displayMyAlertMessage(userMessage: "INVALID MOBILE NUMBER");
@@ -68,14 +69,16 @@ class signUpViewController: UIViewController {
             displayMyAlertMessage(userMessage: "INVALID EMAIL ID");
             return;
         }
+        otpTextField.text="\(myString)"
+        
+    
     }
     
-    
-    @IBOutlet weak var otpTextField: UITextField!
+    //@IBOutlet weak var otpTextField: UITextField!
     
     
     @IBAction func registerButtonTapped(_ sender: Any) {
-        otpTextField.text="\(myString)"
+        
         //(myString==otp){
             displayMyAlertMessage(userMessage: "REGISTRATION SUCCESS");
             return;
