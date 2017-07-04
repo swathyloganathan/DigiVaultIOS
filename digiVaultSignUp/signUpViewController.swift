@@ -75,11 +75,11 @@ class signUpViewController: UIViewController {
     
     
     @IBAction func registerButtonTapped(_ sender: Any) {
-        let otp = otpTextField.text
-        if(myString==otp){
+        otpTextField.text="\(myString)"
+        //(myString==otp){
             displayMyAlertMessage(userMessage: "REGISTRATION SUCCESS");
             return;
-        }
+        //}
         
     }
     func displayMyAlertMessage(userMessage: String){
@@ -98,7 +98,7 @@ class signUpViewController: UIViewController {
         return NSPredicate(format: "SELF MATCHES %@", REGEX).evaluate(with: email)
             }
     func validatePhone(mobno: String) -> Bool {
-        let PHONE_REGEX = "^\\d{3}-\\d{3}-\\d{4}$"
+        let PHONE_REGEX = "^\\d{3}\\d{3}\\d{4}$"
         let phoneTest = NSPredicate(format: "SELF MATCHES %@", PHONE_REGEX)
         let result =  phoneTest.evaluate(with: mobno)
         return result
