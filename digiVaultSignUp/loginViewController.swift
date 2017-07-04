@@ -12,9 +12,14 @@ class loginViewController: UIViewController {
 
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var loginNowButton: UIButton!
-    @IBOutlet weak var GoBackButton: UIButton!
-    override func viewDidLoad() {
+    @IBAction func loginnowButtonTapped(_ sender: Any) {
+    }
+    
+    
+    @IBAction func gobackButtonTapped(_ sender: Any) {
+    }
+    
+        override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

@@ -178,13 +178,6 @@
                                 <color key="textColor" red="1" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qM5-5S-fX1">
-                                <rect key="frame" x="132" y="596" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Register">
-                                    <color key="titleColor" red="1" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nnl-cu-PG4">
                                 <rect key="frame" x="144" y="73" width="160" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -192,17 +185,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YM-Mh-r7F">
-                                <rect key="frame" x="103" y="489" width="149" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Click To Send OTP">
-                                    <color key="titleColor" red="1" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="otpbuttontapped:" destination="sPn-6D-vVA" eventType="touchUpInside" id="15n-OM-Gj8"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobile: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqf-Bg-lzS">
                                 <rect key="frame" x="61" y="442" width="61" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -217,20 +199,38 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YM-Mh-r7F">
+                                <rect key="frame" x="121" y="488" width="149" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Click To Send OTP">
+                                    <color key="titleColor" red="1" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="OTPButtonTapped:" destination="sPn-6D-vVA" eventType="touchUpInside" id="nSd-Cz-vC2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta4-4G-0BP">
+                                <rect key="frame" x="159" y="581" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerButtonTapped:" destination="sPn-6D-vVA" eventType="touchUpInside" id="tFa-Oa-bhn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="OTPButton" destination="1YM-Mh-r7F" id="US1-Ia-2IW"/>
-                        <outlet property="OTPTextField" destination="qC0-FZ-Ucu" id="9cA-jy-NZt"/>
                         <outlet property="confirmPasswordTextField" destination="oVu-A5-33S" id="FPH-3r-7pF"/>
                         <outlet property="emailIdTextField" destination="8Wm-nr-3Dp" id="yM6-nX-sTS"/>
                         <outlet property="firstNameTextField" destination="nnl-cu-PG4" id="6j9-my-d1V"/>
                         <outlet property="lastNameTextField" destination="8UJ-SD-RHz" id="uKN-V9-55L"/>
-                        <outlet property="mobileTextField" destination="Fqf-Bg-lzS" id="CMg-rY-s0q"/>
+                        <outlet property="mobileTextField" destination="Hs2-aH-0uc" id="vyS-Ed-ZtW"/>
+                        <outlet property="otpTextField" destination="qC0-FZ-Ucu" id="Ybx-U6-szf"/>
                         <outlet property="passwordTextField" destination="MjD-Q1-J8m" id="9ho-V7-89X"/>
-                        <outlet property="registerButton" destination="qM5-5S-fX1" id="iRb-ic-WnH"/>
-                        <outlet property="signUpLabel" destination="sUn-Zc-XBe" id="muh-Y6-Gad"/>
                         <outlet property="userNameTextField" destination="6BM-I7-QFd" id="G4A-Oz-mup"/>
                     </connections>
                 </viewController>
@@ -289,12 +289,16 @@
                                 <rect key="frame" x="151" y="332" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login Now"/>
+                                <connections>
+                                    <action selector="loginnowButtonTapped:" destination="SeL-77-5uj" eventType="touchUpInside" id="UbS-iB-dV4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuA-UL-3ez">
                                 <rect key="frame" x="158" y="400" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go Back"/>
                                 <connections>
+                                    <action selector="gobackButtonTapped:" destination="SeL-77-5uj" eventType="touchUpInside" id="1Gb-eh-x6W"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="B7u-FI-acp"/>
                                 </connections>
                             </button>
@@ -302,8 +306,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="GoBackButton" destination="RuA-UL-3ez" id="Veq-0a-ci2"/>
-                        <outlet property="loginNowButton" destination="SBB-7X-K2C" id="i00-qk-4y3"/>
                         <outlet property="passwordTextField" destination="Djz-e0-6Eg" id="1FM-Rb-LX1"/>
                         <outlet property="userNameTextField" destination="LwP-Uf-TFT" id="w2J-IN-NiW"/>
                     </connections>

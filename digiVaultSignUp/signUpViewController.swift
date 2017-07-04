@@ -10,7 +10,7 @@ import UIKit
 
 class signUpViewController: UIViewController {
 
-    @IBOutlet weak var signUpLabel: UILabel!
+    //@IBOutlet weak var signUpLabel: UILabel!
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     
@@ -21,12 +21,15 @@ class signUpViewController: UIViewController {
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     @IBOutlet weak var emailIdTextField: UITextField!
  
-    @IBOutlet weak var mobileTextField: UILabel!
     
+    @IBOutlet weak var mobileTextField: UITextField!
     
-    @IBAction func otpbuttontapped(sender: AnyObject) {
-       let firstname = firstNameTextField.text
-       let lastname = lastNameTextField.text
+    var myString=""
+    
+    @IBAction func OTPButtonTapped(_ sender: Any) {
+    
+        let firstname = firstNameTextField.text
+        let lastname = lastNameTextField.text
         let username = userNameTextField.text
         let password = passwordTextField.text
         let confrimpswd = confirmPasswordTextField.text
@@ -37,31 +40,45 @@ class signUpViewController: UIViewController {
             displayMyAlertMessage(userMessage: "ALL FIELDS ARE REQUIRED");
             return;
         }
-        if(password!==confrimpswd!)
+        if(password==confrimpswd)
         {
+            let number = arc4random_uniform(101)
+            
+            myString = String(number)
+            displayMyAlertMessage(userMessage: myString);
+            }
+        else{
+            
             displayMyAlertMessage(userMessage: "PASSWORDS DO NOT MATCH");
             return;
-        }
-        let number = arc4random_uniform(101)
+
         
-        let myString = String(number)
-        displayMyAlertMessage(userMessage: myString);
+    }
+    }
+    
+    
+    @IBOutlet weak var otpTextField: UITextField!
+    
+    
+    @IBAction func registerButtonTapped(_ sender: Any) {
+        let otp = otpTextField.text
+        if(myString==otp){
+            displayMyAlertMessage(userMessage: "REGISTRATION SUCCESS");
+            return;
+        }
+        
     }
     func displayMyAlertMessage(userMessage: String){
-        let myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle:)
+        let myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle:UIAlertControllerStyle.alert)
         
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:nil);
-       
+        
         myAlert.addAction(okAction);
         
         self.present(myAlert,animated: true, completion:nil);
-    
+        
     }
-    @IBOutlet weak var OTPTextField: UITextField!
-    
-    
-    
-    
+
     
     
     override func viewDidLoad() {
