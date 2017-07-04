@@ -40,13 +40,21 @@ class signUpViewController: UIViewController {
             displayMyAlertMessage(userMessage: "ALL FIELDS ARE REQUIRED");
             return;
         }
+        if(validate(email: email!)){
         if(password==confrimpswd)
         {
+            if(validatePhone(mobno: mobno!)){
             let number = arc4random_uniform(101)
             
             myString = String(number)
             displayMyAlertMessage(userMessage: myString);
             }
+            else{
+                displayMyAlertMessage(userMessage: "INVALID MOBILE NUMBER");
+                return;
+            }
+            }
+            
         else{
             
             displayMyAlertMessage(userMessage: "PASSWORDS DO NOT MATCH");
@@ -54,6 +62,12 @@ class signUpViewController: UIViewController {
 
         
     }
+            
+    }
+        else{
+            displayMyAlertMessage(userMessage: "INVALID EMAIL ID");
+            return;
+        }
     }
     
     
@@ -77,6 +91,17 @@ class signUpViewController: UIViewController {
         
         self.present(myAlert,animated: true, completion:nil);
         
+    }
+    func validate(email: String) -> Bool {
+        let REGEX: String
+        REGEX = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
+        return NSPredicate(format: "SELF MATCHES %@", REGEX).evaluate(with: email)
+            }
+    func validatePhone(mobno: String) -> Bool {
+        let PHONE_REGEX = "^\\d{3}-\\d{3}-\\d{4}$"
+        let phoneTest = NSPredicate(format: "SELF MATCHES %@", PHONE_REGEX)
+        let result =  phoneTest.evaluate(with: mobno)
+        return result
     }
 
     
