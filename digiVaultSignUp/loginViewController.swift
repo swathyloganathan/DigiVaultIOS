@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Firebase
+import FireAuth
+
+
 
 class loginViewController: UIViewController {
 
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBAction func loginnowButtonTapped(_ sender: Any) {
+        
     }
     
     

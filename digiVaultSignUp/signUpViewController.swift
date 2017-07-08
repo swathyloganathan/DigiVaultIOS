@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class signUpViewController: UIViewController {
 
@@ -25,6 +26,8 @@ class signUpViewController: UIViewController {
     @IBOutlet weak var mobileTextField: UITextField!
     
     @IBOutlet weak var otpTextField: UITextField!
+    var ref:DatabaseReference!
+    
     var myString=""
     
     @IBAction func OTPButtonTapped(_ sender: Any) {
@@ -81,6 +84,7 @@ class signUpViewController: UIViewController {
         
         //(myString==otp){
             displayMyAlertMessage(userMessage: "REGISTRATION SUCCESS");
+        ref?.child("posts").childByAutoId().setValue("hello firebase")
             return;
         //}
         
@@ -111,6 +115,7 @@ class signUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
 
         // Do any additional setup after loading the view.
     }

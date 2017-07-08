@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		828177C7EB0088D599D61631 /* Pods_digiVaultSignUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFF284819C127EAB63E3FFE /* Pods_digiVaultSignUpUITests.framework */; };
 		BE23D8021F07560E00D34EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23D8011F07560E00D34EB7 /* AppDelegate.swift */; };
 		BE23D8041F07560E00D34EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23D8031F07560E00D34EB7 /* ViewController.swift */; };
 		BE23D8071F07560E00D34EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE23D8051F07560E00D34EB7 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 		BEC9CD5B1F108F520097D447 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD5A1F108F520097D447 /* ScanViewController.swift */; };
 		BEC9CD5D1F108F8F0097D447 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD5C1F108F8F0097D447 /* UploadViewController.swift */; };
 		BEC9CD5F1F109A170097D447 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD5E1F109A170097D447 /* FormViewController.swift */; };
+		C213A9A055136D68F11EF934 /* Pods_digiVaultSignUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1CEDFA06790A62EACC49C8 /* Pods_digiVaultSignUpTests.framework */; };
+		CEB50637B9D47609DF15E203 /* Pods_digiVaultSignUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468B31F85DD560A59F11B0DA /* Pods_digiVaultSignUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D243FA03424F2302BFFD4FB /* Pods-digiVaultSignUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiVaultSignUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-digiVaultSignUp/Pods-digiVaultSignUp.release.xcconfig"; sourceTree = "<group>"; };
+		32DE1C6F715ECEBB5029A8A1 /* Pods-digiVaultSignUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiVaultSignUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-digiVaultSignUpUITests/Pods-digiVaultSignUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		468B31F85DD560A59F11B0DA /* Pods_digiVaultSignUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digiVaultSignUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56868AA439BBE4220B9450B2 /* Pods-digiVaultSignUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiVaultSignUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-digiVaultSignUpUITests/Pods-digiVaultSignUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79D4F80A2B645D4DA9B811D5 /* Pods-digiVaultSignUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiVaultSignUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-digiVaultSignUp/Pods-digiVaultSignUp.debug.xcconfig"; sourceTree = "<group>"; };
+		A826C4FC3C63DE90B9138B6F /* Pods-digiVaultSignUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiVaultSignUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-digiVaultSignUpTests/Pods-digiVaultSignUpTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE23D7FE1F07560E00D34EB7 /* digiVaultSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digiVaultSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE23D8011F07560E00D34EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE23D8031F07560E00D34EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +72,9 @@
 		BEC9CD5A1F108F520097D447 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		BEC9CD5C1F108F8F0097D447 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		BEC9CD5E1F109A170097D447 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		CD9AF16172804B54F88E1193 /* Pods-digiVaultSignUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiVaultSignUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-digiVaultSignUpTests/Pods-digiVaultSignUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFF284819C127EAB63E3FFE /* Pods_digiVaultSignUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digiVaultSignUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1CEDFA06790A62EACC49C8 /* Pods_digiVaultSignUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digiVaultSignUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB50637B9D47609DF15E203 /* Pods_digiVaultSignUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C213A9A055136D68F11EF934 /* Pods_digiVaultSignUpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828177C7EB0088D599D61631 /* Pods_digiVaultSignUpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				BE23D8181F07560E00D34EB7 /* digiVaultSignUpTests */,
 				BE23D8231F07560E00D34EB7 /* digiVaultSignUpUITests */,
 				BE23D7FF1F07560E00D34EB7 /* Products */,
+				D95C345DE54456D725D4177B /* Pods */,
+				D5C941E5BDCB4F13AE7CD007 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +166,29 @@
 			path = digiVaultSignUpUITests;
 			sourceTree = "<group>";
 		};
+		D5C941E5BDCB4F13AE7CD007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				468B31F85DD560A59F11B0DA /* Pods_digiVaultSignUp.framework */,
+				EE1CEDFA06790A62EACC49C8 /* Pods_digiVaultSignUpTests.framework */,
+				DDFF284819C127EAB63E3FFE /* Pods_digiVaultSignUpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D95C345DE54456D725D4177B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79D4F80A2B645D4DA9B811D5 /* Pods-digiVaultSignUp.debug.xcconfig */,
+				2D243FA03424F2302BFFD4FB /* Pods-digiVaultSignUp.release.xcconfig */,
+				CD9AF16172804B54F88E1193 /* Pods-digiVaultSignUpTests.debug.xcconfig */,
+				A826C4FC3C63DE90B9138B6F /* Pods-digiVaultSignUpTests.release.xcconfig */,
+				56868AA439BBE4220B9450B2 /* Pods-digiVaultSignUpUITests.debug.xcconfig */,
+				32DE1C6F715ECEBB5029A8A1 /* Pods-digiVaultSignUpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE23D8291F07560E00D34EB7 /* Build configuration list for PBXNativeTarget "digiVaultSignUp" */;
 			buildPhases = (
+				BC2F42C3DD69ED02975FB34A /* [CP] Check Pods Manifest.lock */,
 				BE23D7FA1F07560E00D34EB7 /* Sources */,
 				BE23D7FB1F07560E00D34EB7 /* Frameworks */,
 				BE23D7FC1F07560E00D34EB7 /* Resources */,
+				45B4486DFAE3BAB469027490 /* [CP] Embed Pods Frameworks */,
+				CCAF898AB5EE371CB9E6F670 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE23D82C1F07560E00D34EB7 /* Build configuration list for PBXNativeTarget "digiVaultSignUpTests" */;
 			buildPhases = (
+				DBB482CEE433C4EFDE94E8DF /* [CP] Check Pods Manifest.lock */,
 				BE23D8111F07560E00D34EB7 /* Sources */,
 				BE23D8121F07560E00D34EB7 /* Frameworks */,
 				BE23D8131F07560E00D34EB7 /* Resources */,
+				FCFEB69B1746F7E131DD6448 /* [CP] Embed Pods Frameworks */,
+				72D99DEB43682899A1327526 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE23D82F1F07560E00D34EB7 /* Build configuration list for PBXNativeTarget "digiVaultSignUpUITests" */;
 			buildPhases = (
+				415A64C55E619C24D7B5323E /* [CP] Check Pods Manifest.lock */,
 				BE23D81C1F07560E00D34EB7 /* Sources */,
 				BE23D81D1F07560E00D34EB7 /* Frameworks */,
 				BE23D81E1F07560E00D34EB7 /* Resources */,
+				38C1F77BBAAE756CBD742254 /* [CP] Embed Pods Frameworks */,
+				9203C668E549993D223F3AE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +326,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38C1F77BBAAE756CBD742254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-digiVaultSignUpUITests/Pods-digiVaultSignUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415A64C55E619C24D7B5323E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45B4486DFAE3BAB469027490 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-digiVaultSignUp/Pods-digiVaultSignUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D99DEB43682899A1327526 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-digiVaultSignUpTests/Pods-digiVaultSignUpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9203C668E549993D223F3AE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-digiVaultSignUpUITests/Pods-digiVaultSignUpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2F42C3DD69ED02975FB34A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAF898AB5EE371CB9E6F670 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-digiVaultSignUp/Pods-digiVaultSignUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB482CEE433C4EFDE94E8DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCFEB69B1746F7E131DD6448 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-digiVaultSignUpTests/Pods-digiVaultSignUpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE23D7FA1F07560E00D34EB7 /* Sources */ = {
@@ -442,10 +629,11 @@
 		};
 		BE23D82A1F07560E00D34EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D4F80A2B645D4DA9B811D5 /* Pods-digiVaultSignUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = digiVaultSignUp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.M.D.-Enginering-College.digiVaultSignUp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -454,6 +642,7 @@
 		};
 		BE23D82B1F07560E00D34EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D243FA03424F2302BFFD4FB /* Pods-digiVaultSignUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = digiVaultSignUp/Info.plist;
@@ -466,6 +655,7 @@
 		};
 		BE23D82D1F07560E00D34EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9AF16172804B54F88E1193 /* Pods-digiVaultSignUpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +670,7 @@
 		};
 		BE23D82E1F07560E00D34EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A826C4FC3C63DE90B9138B6F /* Pods-digiVaultSignUpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +685,7 @@
 		};
 		BE23D8301F07560E00D34EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56868AA439BBE4220B9450B2 /* Pods-digiVaultSignUpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = digiVaultSignUpUITests/Info.plist;
@@ -507,6 +699,7 @@
 		};
 		BE23D8311F07560E00D34EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DE1C6F715ECEBB5029A8A1 /* Pods-digiVaultSignUpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = digiVaultSignUpUITests/Info.plist;
