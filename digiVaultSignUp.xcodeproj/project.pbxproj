@@ -17,6 +17,11 @@
 		BE23D8251F07560E00D34EB7 /* digiVaultSignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23D8241F07560E00D34EB7 /* digiVaultSignUpUITests.swift */; };
 		BE23D8331F078DC300D34EB7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23D8321F078DC300D34EB7 /* signUpViewController.swift */; };
 		BE23D8351F078DEF00D34EB7 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23D8341F078DEF00D34EB7 /* loginViewController.swift */; };
+		BEC9CD571F108D0C0097D447 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD561F108D0C0097D447 /* DashboardViewController.swift */; };
+		BEC9CD591F108E440097D447 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD581F108E440097D447 /* AddViewController.swift */; };
+		BEC9CD5B1F108F520097D447 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD5A1F108F520097D447 /* ScanViewController.swift */; };
+		BEC9CD5D1F108F8F0097D447 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD5C1F108F8F0097D447 /* UploadViewController.swift */; };
+		BEC9CD5F1F109A170097D447 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9CD5E1F109A170097D447 /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		BE23D8261F07560E00D34EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE23D8321F078DC300D34EB7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		BE23D8341F078DEF00D34EB7 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BEC9CD561F108D0C0097D447 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		BEC9CD581F108E440097D447 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BEC9CD5A1F108F520097D447 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		BEC9CD5C1F108F8F0097D447 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		BEC9CD5E1F109A170097D447 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				BE23D8011F07560E00D34EB7 /* AppDelegate.swift */,
 				BE23D8031F07560E00D34EB7 /* ViewController.swift */,
 				BE23D8051F07560E00D34EB7 /* Main.storyboard */,
+				BEC9CD5E1F109A170097D447 /* FormViewController.swift */,
+				BEC9CD5C1F108F8F0097D447 /* UploadViewController.swift */,
+				BEC9CD5A1F108F520097D447 /* ScanViewController.swift */,
+				BEC9CD581F108E440097D447 /* AddViewController.swift */,
+				BEC9CD561F108D0C0097D447 /* DashboardViewController.swift */,
 				BE23D80B1F07560E00D34EB7 /* Assets.xcassets */,
 				BE23D80D1F07560E00D34EB7 /* LaunchScreen.storyboard */,
 				BE23D8101F07560E00D34EB7 /* Info.plist */,
@@ -269,10 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE23D8041F07560E00D34EB7 /* ViewController.swift in Sources */,
+				BEC9CD571F108D0C0097D447 /* DashboardViewController.swift in Sources */,
+				BEC9CD591F108E440097D447 /* AddViewController.swift in Sources */,
 				BE23D80A1F07560E00D34EB7 /* digiVaultSignUp.xcdatamodeld in Sources */,
+				BEC9CD5D1F108F8F0097D447 /* UploadViewController.swift in Sources */,
 				BE23D8331F078DC300D34EB7 /* signUpViewController.swift in Sources */,
 				BE23D8021F07560E00D34EB7 /* AppDelegate.swift in Sources */,
 				BE23D8351F078DEF00D34EB7 /* loginViewController.swift in Sources */,
+				BEC9CD5F1F109A170097D447 /* FormViewController.swift in Sources */,
+				BEC9CD5B1F108F520097D447 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +537,7 @@
 				BE23D82B1F07560E00D34EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE23D82C1F07560E00D34EB7 /* Build configuration list for PBXNativeTarget "digiVaultSignUpTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +546,7 @@
 				BE23D82E1F07560E00D34EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE23D82F1F07560E00D34EB7 /* Build configuration list for PBXNativeTarget "digiVaultSignUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +555,7 @@
 				BE23D8311F07560E00D34EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
