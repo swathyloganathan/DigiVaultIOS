@@ -632,6 +632,7 @@
 			baseConfigurationReference = 79D4F80A2B645D4DA9B811D5 /* Pods-digiVaultSignUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = digiVaultSignUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.M.D.-Enginering-College.digiVaultSignUp";
@@ -645,6 +646,7 @@
 			baseConfigurationReference = 2D243FA03424F2302BFFD4FB /* Pods-digiVaultSignUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = digiVaultSignUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.M.D.-Enginering-College.digiVaultSignUp";
